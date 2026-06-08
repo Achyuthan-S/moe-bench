@@ -68,7 +68,7 @@ We tested L_div LoRA fine-tuning on OLMoE against a 12-subject MMLU subset (5-sh
 ## Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/moe-bench.git
+git clone https://github.com/Achyuthan-S/moe-bench.git
 cd moe-bench
 python3 -m venv .venv && source .venv/bin/activate
 pip install -e ".[train,eval,demo,dev]"
@@ -178,7 +178,7 @@ PRs welcome.
   author       = {Sivasankar, Achyuthan and {MoE-Bench Contributors}},
   year         = {2026},
   howpublished = {Software},
-  url          = {https://github.com/YOUR_USERNAME/moe-bench},
+  url          = {https://github.com/Achyuthan-S/moe-bench},
   note         = {Routing benchmark toolkit; MMLU and cloud-scale Mixtral results reported as directional or out-of-scope}
 }
 ```
