@@ -1,0 +1,4 @@
+include README.md
+include LICENSE
+recursive-include moe_bench *.py
+recursive-include docs *.md

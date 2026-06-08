@@ -1,0 +1,15 @@
+{
+  "add_prefix_space": false,
+  "backend": "tokenizers",
+  "bos_token": null,
+  "clean_up_tokenization_spaces": true,
+  "eos_token": "<|endoftext|>",
+  "errors": "replace",
+  "is_local": false,
+  "local_files_only": false,
+  "model_max_length": 1000000000000000019884624838656,
+  "pad_token": "<|padding|>",
+  "tokenizer_class": "GPTNeoXTokenizer",
+  "trim_offsets": true,
+  "unk_token": null
+}

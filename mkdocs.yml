@@ -1,0 +1,9 @@
+site_name: MoE-Bench
+site_description: Open benchmark for expert collapse in sparse MoE LLMs
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - API: api.md
+  - Contributing: contributing.md
+repo_url: https://github.com/moe-bench/moe-bench

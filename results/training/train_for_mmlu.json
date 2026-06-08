@@ -1,0 +1,15 @@
+{
+  "model": "allenai/OLMoE-1B-7B-0924",
+  "aux_loss": "ldiv",
+  "lambda_div": 0.01,
+  "tau": 1.5,
+  "mean_entropy": 3.626721069216728,
+  "collapse_rate_40": 0.125,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.5960659664706327
+    }
+  ],
+  "adapter_dir": "results/training/adapters/ldiv_l0.01_t1.5"
+}

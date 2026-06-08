@@ -1,0 +1,10 @@
+{
+  "model": "allenai/OLMoE-1B-7B-0924",
+  "mmlu_subjects": 12,
+  "num_fewshot": 5,
+  "limit_per_subject": 25,
+  "base_macro_acc": 0.5166666666666667,
+  "ldiv_macro_acc": 0.52,
+  "delta": 0.0033333333333332993,
+  "note": "Mac subset run; not full 57-task MMLU. L_div uses merged LoRA weights."
+}

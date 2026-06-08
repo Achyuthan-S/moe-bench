@@ -1,0 +1,57 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+
+# --- Secrets ---
+.env
+.env.*
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Experiment tracking ---
+wandb/
+mlruns/
+
+# --- MoE-Bench: routing shard caches ---
+.routing_cache_*/
+results/.routing_cache_*/
+*.npz
+
+# --- Model weights ---
+results/lm_eval/olmoe_ldiv_merged/
+results/lm_eval/olmoe_ldiv_merged_test/
+*.safetensors
+!results/training/adapters/
+!results/training/adapters/**/adapter_model.safetensors
+
+# --- lm-eval dumps with local paths ---
+results/lm_eval/mmlu_ldiv/
+results/lm_eval/mmll_base/
+
+# --- Logs ---
+results/*.log
+
+# --- Figures ---
+*.png
+!docs/**/*.png
+!results/figures/**/*.png
+
+# --- Paper (not ready) ---
+paper/

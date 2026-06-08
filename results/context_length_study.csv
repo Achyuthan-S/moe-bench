@@ -1,0 +1,4 @@
+max_length,mean_entropy,collapse_rate,avg_load_imbalance,num_collapsed_layers
+128,3.666074752807617,0.0,10.4,0
+512,3.666074752807617,0.0,10.4,0
+1024,3.666074752807617,0.0,10.4,0

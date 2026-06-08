@@ -1,0 +1,14 @@
+{
+  "model": "allenai/OLMoE-1B-7B-0924",
+  "aux_loss": "ldiv",
+  "lambda_div": 0.01,
+  "tau": 1.0,
+  "mean_entropy": 3.601488322019577,
+  "collapse_rate_40": 0.0625,
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.989739002039035
+    }
+  ]
+}
